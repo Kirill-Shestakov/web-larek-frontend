@@ -1,24 +1,24 @@
 # Проектная работа "Веб-ларек"
+
 Web-ларёк - интернет-магазин для веб-разработчиков. Широкий выбор программных решений, скиллов и других инструментов для веб-разработки.
 
-## Стек
-- HTML
-- SCSS
-- TypeScript
-- Webpack
+## Используемый стек
 
-## Структура проекта:
-- src/ — исходные файлы проекта
-- src/components/ — папка с JS компонентами
-- src/components/base/ — папка с базовым кодом
+- **Frontend:** HTML, SCSS, TypeScript, Webpack
 
-Важные файлы:
-- src/pages/index.html — HTML-файл главной страницы
-- src/types/index.ts — файл с типами
-- src/index.ts — точка входа приложения
-- src/styles/styles.scss — корневой файл стилей
-- src/utils/constants.ts — файл с константами
-- src/utils/utils.ts — файл с утилитами
+## Структура проекта
+
+- `src/` — исходные файлы проекта
+- `src/components/` — папка с компонентами на JavaScript
+- `src/components/base/` — папка с базовым кодом
+
+### Важные файлы:
+- `src/pages/index.html` — HTML-файл главной страницы
+- `src/types/index.ts` — файл с типами
+- `src/index.ts` — точка входа приложения
+- `src/styles/styles.scss` — корневой файл стилей
+- `src/utils/constants.ts` — файл с константами
+- `src/utils/utils.ts` — файл с утилитами
 
 ## Установка и запуск
 Для установки и запуска проекта необходимо выполнить команды
