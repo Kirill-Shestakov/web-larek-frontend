@@ -52,7 +52,7 @@ yarn build
 Проект использует архитектуру, основанную на модели MVP, включая следующие компоненты:
 
 ------------
-![UML](https://previews.dropbox.com/p/thumb/ACT36sQF-iuCPLFufiBAh5PyIenSO_JsfU3C6BkvwOjoKY3TKNgEKUqQTu79WXPcIKb28pC3lapbvgmF-OJQZQw8OOI1c8wJPGP0BWSuNmFMtojBFpuA7A1jVrLVgbSosMXB6p6AxVJiqCbxM9ctN3aX_xHOs7rJXYmeR60VPDYp7hrN5dvEnLqvA63yuP-CntAuKkGei3nOxI0KOti9iprUXmEXJqQq5hf874TBi5aVA0orS_-nBXdVWf7eDWtSBVK0lHOwRzkr9rVW5gYExQbZ2KMkhkNZfggEtIa4huQViH_VAepjdDHN_1ZmxHs3tMUGhtvVF3s86X3jfJzfnyZ3/p.jpeg)
+![alt text](https://previews.dropbox.com/p/thumb/ACT36sQF-iuCPLFufiBAh5PyIenSO_JsfU3C6BkvwOjoKY3TKNgEKUqQTu79WXPcIKb28pC3lapbvgmF-OJQZQw8OOI1c8wJPGP0BWSuNmFMtojBFpuA7A1jVrLVgbSosMXB6p6AxVJiqCbxM9ctN3aX_xHOs7rJXYmeR60VPDYp7hrN5dvEnLqvA63yuP-CntAuKkGei3nOxI0KOti9iprUXmEXJqQq5hf874TBi5aVA0orS_-nBXdVWf7eDWtSBVK0lHOwRzkr9rVW5gYExQbZ2KMkhkNZfggEtIa4huQViH_VAepjdDHN_1ZmxHs3tMUGhtvVF3s86X3jfJzfnyZ3/p.jpeg)
 ------------
 
 
