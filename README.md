@@ -52,7 +52,9 @@ yarn build
 Проект использует архитектуру, основанную на модели MVP, включая следующие компоненты:
 
 ------------
+
 <image src="https://raw.githubusercontent.com/Kirill-Shestakov/web-larek-frontend/main/WebLarek.jpg" alt="UML схема">
+
 ------------
 
 
