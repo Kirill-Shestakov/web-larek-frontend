@@ -1,9 +1,13 @@
-import { Model } from '../core/model';
-import { Product } from './product';
-import { IOrder } from '../interfaces/order.interface';
-import { FormErrors } from '../interfaces/formErrors.interface';
-import { IAppState } from '../interfaces/appState.interface';
+import { Model } from './base/Model';
+import { IAppState, IOrder, FormErrors, IProduct } from '../types';
 
+
+export class Product extends Model<IProduct> {
+    id: string;
+    constructor(data: IProduct, events: any) {
+        super(data, events);
+    }
+}
 export class AppState extends Model<IAppState> {
     basket: Product[];
     store: Product[];
@@ -27,7 +31,6 @@ export class AppState extends Model<IAppState> {
         this.basket = this.basket.filter(product => product.id !== productId);
         this.events.emit('basketUpdated', this.basket);
     }
-
 
     clearBasket(): void {
         this.basket = [];
