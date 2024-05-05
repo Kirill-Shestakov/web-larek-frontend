@@ -2,11 +2,13 @@ import { Product } from '../components/AppData';
 
 // Определение типа для категорий продуктов
 export enum CategoryType {
-    Electronics = "Electronics",
-    Clothing = "Clothing",
-    Accessories = "Accessories",
-    Books = "Books"
+    SoftSkill = "софт-скил",
+    HardSkill = "хард-скил",
+    Other = "другое",
+    Button = "кнопка",
+    Additional = "дополнительное"
 }
+
 
 // Интерфейс, описывающий структуру данных продукта
 export interface IProduct {

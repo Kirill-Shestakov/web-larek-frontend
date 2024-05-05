@@ -133,3 +133,10 @@ export function createElement<
     }
     return element;
 }
+
+export function handlePrice(price: number | null): string {
+    if (price === null) {
+        return "Цена не указана";
+    }
+    return `${price.toLocaleString()} синапсов`;
+}
