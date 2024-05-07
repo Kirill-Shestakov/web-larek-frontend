@@ -7,9 +7,9 @@ export const settings = {
 };
 
 export const categoryMapping: Record<CategoryType, string> = {
-    другое: 'card__category_other',
-    'софт-скил': 'card__category_soft',
-    дополнительное: 'card__category_additional',
-    кнопка: 'card__category_button',
-    'хард-скил': 'card__category_hard',
+    [CategoryType.Other]: 'card__category_other',
+    [CategoryType.SoftSkill]: 'card__category_soft',
+    [CategoryType.Additional]: 'card__category_additional',
+    [CategoryType.Button]: 'card__category_button',
+    [CategoryType.HardSkill]: 'card__category_hard',
 };

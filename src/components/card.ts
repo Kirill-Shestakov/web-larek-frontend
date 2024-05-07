@@ -1,4 +1,4 @@
-import { Component } from './base/Component';
+import { Component } from './base/component';
 import { IProduct, CategoryType } from '../types';
 import { ensureElement, handlePrice } from '../utils/utils';
 import { CDN_URL, categoryMapping } from '../utils/constants';

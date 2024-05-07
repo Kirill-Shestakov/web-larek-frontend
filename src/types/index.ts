@@ -1,4 +1,4 @@
-import { Product } from '../components/AppData';
+import { Product } from '../components/appData';
 
 // Определение типа для категорий продуктов
 export enum CategoryType {

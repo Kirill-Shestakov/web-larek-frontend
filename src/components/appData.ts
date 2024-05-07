@@ -1,4 +1,4 @@
-import { Model } from './base/Model';
+import { Model } from './base/model';
 import { IAppState, IOrder, FormErrors, IProduct } from '../types';
 
 
