@@ -1,14 +1,11 @@
+import { IEvents } from '../../components';
+
 export class Model<T> {
-    constructor(public data: T, protected events: any) {}
+	constructor(data: Partial<T>, protected events: IEvents) {
+		Object.assign(this, data);
+	}
 
-    // Метод для обновления данных
-    updateData(update: Partial<T>): void {
-        this.data = { ...this.data, ...update };
-        this.events.emit('dataUpdated', this.data);
-    }
-
-    // Получение данных
-    getData(): T {
-        return this.data;
-    }
+	updateData(update: string, payload: Record<string, any> = {}): void {
+		this.events.emit(update, payload);
+	}
 }
